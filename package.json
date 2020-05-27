@@ -1,0 +1,29 @@
+[{
+  "name": "event-tracking",
+  "version": "1.0.0",
+  "description": "Event/card tracking API",
+  "main": "index.js",
+  "author": "klh",
+  "license": "MIT",
+  "scripts": {
+    "serve": "nodemon --exec babel-node src/start.js",
+    "start": "node src/start.js",
+    "test": "nodemon --exec babel-node src/test.js"
+  },
+  "dependencies": {
+    "cfenv": "^1.2.2",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "fs": "0.0.1-security",
+    "mongoose": "^5.7.7",
+    "@babel/core": "^7.7.4",
+    "@babel/register": "^7.7.4",
+    "@babel/preset-env": "^7.7.4"
+  },
+  "devDependencies": {
+    "@babel/node": "^7.6.3",
+    "nodemon": "^1.19.4"
+  }
+}
+]
